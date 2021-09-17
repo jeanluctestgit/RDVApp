@@ -20,7 +20,15 @@ Une fois les microservices installés et démarrés il faut :\
    - username : user
    - password : paris
 
-![Alt text](loginToapp.png?raw=true "Title")
+![Alt text](loginToapp.png?raw=true "Login")
+
+## Ajouter un Rendez-vous :
+  Voici l'interface de prise de rendez-vous :
+
+![Alt text](RdvApp.png?raw=true "Rdv App")
+
+Sélectionner en haut dans la liste un commercial , puis les dates et heures de début et de fin du rendez-vous
+  
 
 
 
