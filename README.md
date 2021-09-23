@@ -33,6 +33,12 @@ Une fois les microservices installés et démarrés il faut :\
 ![Alt text](RdvApp.png?raw=true "Rdv App")
 
 Sélectionner en haut dans la liste un commercial , puis les dates et heures de début et de fin du rendez-vous
+
+## Trouble shooting
+Il se peut que les dépendances axios et react-query ne soit pas reconnues immédiatement . j'ai résolu le problème en installant ces dépendances dans le microservice client
+Pour ce faire : 
+1) Lancer : <b> docker exec -it client bash </b>
+2) Lancer : <b> npm install axios react-query </b>
   
 
 
