@@ -14,6 +14,10 @@ Une fois les microservices installés et démarrés il faut :\
  5) puis lancer : <b>php bin/console doctrine:fixtures:load</b> pour initialiser la base de données avec les données de base
 
 ## Lancer l'application cliente :
+ 1) Lancer la commande : <b> docker exec -it client bash </b>
+ 2) Lancer la commande : <b> npm install </b> pour installer les dépendances du projet .
+
+
  Pour lancer l'application cliente aller à l'adresse : http://localhost:3000/
  
  Une fenetre de login est présente , pour s'authentifier il faut utiliser le compte suivant :
