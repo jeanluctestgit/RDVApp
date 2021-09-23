@@ -1,10 +1,9 @@
 # RDVApp
 Evaluation CDA - Application de prise de Rendez vous
 
-L'application est composée de plusieurs microservices . Le prérequis est d'avoir docker installé sur sa machine , il faut ensuite lancer la commande:\
-### docker-compose up -d
+L'application est composée de plusieurs microservices . Le prérequis est d'avoir docker installé sur sa machine , il faut ensuite lancer la commande: <b>docker-compose up -d</b>
 
-Une fois les microservices installés et démarrés il faut :\
+Une fois les microservices installés et démarrés il faut :
 
 ## Configurer la base de données :
  1) Pour ce faire lancer la commande : <b>docker exec -it www_docker_symfony bash</b>
